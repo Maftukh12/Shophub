@@ -28,6 +28,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Project Link: [https://github.com/your-username/your-repository](https://github.com/your-username/your-repository)
 
+preview project : [https://spontaneous-brigadeiros-4f9a71.netlify.app/](https://spontaneous-brigadeiros-4f9a71.netlify.app/)
+
 ## Acknowledgments
 
 - List any resources, libraries, or individuals you'd like to acknowledge
