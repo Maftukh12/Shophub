@@ -33,3 +33,5 @@ preview project : [https://spontaneous-brigadeiros-4f9a71.netlify.app/](https://
 ## Acknowledgments
 
 - List any resources, libraries, or individuals you'd like to acknowledge
+
+## NB : This project is not completely finished so maybe there are some features or UI that are not suitable, so maybe if you want to develop it further, please do so because this project might take a while to finish because I'm lazy.
