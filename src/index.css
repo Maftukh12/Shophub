@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-gray-50 to-gray-100;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-effect {
+  @apply bg-white/80 backdrop-blur-lg;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/10 hover:-translate-y-1;
+}
+
+.gradient-border {
+  position: relative;
+  border-radius: 1rem;
+  background: linear-gradient(to right, #4f46e5, #7c3aed);
+  padding: 1px;
+}
+
+.gradient-border > * {
+  background: white;
+  border-radius: 1rem;
+}
+
+@layer utilities {
+  .aspect-w-4 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+  
+  .aspect-h-3 {
+    --tw-aspect-h: 3;
+  }
+  
+  .aspect-w-4 {
+    --tw-aspect-w: 4;
+  }
+  
+  .aspect-w-4 > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
