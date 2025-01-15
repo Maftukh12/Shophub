@@ -26,7 +26,7 @@ If you'd like to contribute, please fork the repository and create a pull reques
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Project Link: [https://github.com/your-username/your-repository](https://github.com/your-username/your-repository)
+Project Link: [https://github.com/Maftukh12/Shophub.git](https://github.com/Maftukh12/Shophub.git)
 
 preview project : [https://spontaneous-brigadeiros-4f9a71.netlify.app/](https://spontaneous-brigadeiros-4f9a71.netlify.app/)
 
